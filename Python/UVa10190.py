@@ -12,7 +12,7 @@ while 1:
     while a > 1:
         x = a/b
         if a == x*b and x% b == 0:
-            a = x
+            a = int(x)
             out = f"{out} {a}"
         elif x == 1:
             out += " 1"
