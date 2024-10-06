@@ -4,7 +4,7 @@ while 1:
     except:
         break
     
-    if b == 1:
+    if b <= 1:
         print("Boring!")
         continue
     
